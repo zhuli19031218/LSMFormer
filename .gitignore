@@ -1,0 +1,51 @@
+# ===== Python 编译 & 缓存 =====
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# ===== 虚拟环境 =====
+env/
+venv/
+.venv/
+.conda/
+.env/
+
+# ===== IDE / 系统文件 =====
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ===== 日志和中间结果 =====
+code/LSMFormer/logs/
+code/LSMFormer/cache_data/
+
+code/实验结果/ROC/logs/
+code/实验结果/**/最终权重/**
+# ===== 论文文稿、投稿格式、查重报告等私人文件 =====
+历史版本/
+撰写文档/
+数据/
+投稿格式/
+正文图/
+学生照片与简介/
+论文修改记录.pdf
+LSMFormer中文*.docx
+LSMformer*.docx
+LSMformer20240809.docx
+lsmformer中文(方法还缺模型介绍).docx
+关键词维护.docx
+# ===== 大模型权重 =====
+*.pth
+*.pt
+*.ckpt
+
+# ===== 大规模实验结果（按需手动挑选需要的 csv/txt 不在这些路径里）=====
+code/实验结果/whole_region/pyh/*.csv
+code/实验结果/whole_region/pyh/*.txt
+code/实验结果/whole_region/RC/*.csv
+code/实验结果/whole_region/RC/*.txt
+
+# ===== Jupyter 缓存 =====
+.ipynb_checkpoints/
