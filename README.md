@@ -34,6 +34,12 @@ pip install torch pandas numpy scikit-learn imbalanced-learn plotly matplotlib s
 
 Expected dataset paths are defined in `main_whole.py` (e.g., `train_data`, `test_data`, `neg_data`). You need to prepare your own landslide dataset mimicking the expected columnar structure, or adjust the path logic in the main file accordingly.
 
+**Note:** The dataset files are large (exceeding GitHub’s file size limits). Please download them from the following link:
+
+- **Baidu Netdisk link:**  https://pan.baidu.com/s/1iDrd8boZ8Rt8iXdgqEowUQ (extraction code: LSMF)  
+
+After downloading, place the `数据` folder into the project root directory (overwriting the placeholder structure). Then you can run `python main_whole.py` directly.
+
 ## Quick Start
 
 Execute the pre-training, fine-tuning, and testing sequence by simply running:
